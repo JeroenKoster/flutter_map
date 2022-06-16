@@ -42,7 +42,7 @@ class Polygon {
   final bool disableHolesBorder;
   final bool isDotted;
   final bool isFilled;
-  late final LatLngBounds boundingBox;
+  late LatLngBounds boundingBox;
   final String? label;
   final TextStyle labelStyle;
   final PolygonLabelPlacement labelPlacement;
